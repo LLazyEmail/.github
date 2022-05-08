@@ -62,4 +62,3 @@ Cool projects to see
 - https://github.com/maizzle/maizzle
 - https://github.com/sglazov/pechkin
 - https://github.com/5t3ph/11ty-email-generator/blob/main/src/_data/meta.js
-- 
