@@ -78,3 +78,21 @@ Cool projects to see
 * [https://hackernoon.com/together4victory-list-of-email-marketing-tools](https://hackernoon.com/together4victory-list-of-email-marketing-tools)
 * [https://hackernoon.com/cool-newsletters-for-developers-part-1](https://hackernoon.com/cool-newsletters-for-developers-part-1)
 * [https://hackernoon.com/cool-resources-for-sending-emails](https://hackernoon.com/cool-resources-for-sending-emails)
+
+
+
+---
+
+https://medium.com/ovrsea/build-your-email-templates-with-react-ea530ba6b010
+
+https://assertible.com/blog/creating-email-templates-with-react-components
+
+https://templates.mailchimp.com/getting-started/html-email-basics/
+
+https://building.lang.ai/how-to-build-emails-with-react-fcf941b125d1
+
+https://code.tutsplus.com/tutorials/build-a-reusable-design-system-with-react--cms-29954
+
+https://bestofreactjs.com/repo/chromakode-react-html-email-react-renderers
+
+https://github.com/unlayer/react-email-editor
