@@ -88,7 +88,7 @@ Cool projects to see
 * [https://hackernoon.com/cool-resources-for-sending-emails](https://hackernoon.com/cool-resources-for-sending-emails)
 
 
-
+https://github.com/LLazyEmail/awesome-email-marketing
 ---
 
 https://medium.com/ovrsea/build-your-email-templates-with-react-ea530ba6b010
