@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 
-#### Link: https://llazyemail.github.io/documentation/
+#### Documentation: https://llazyemail.github.io/documentation/
 
 <!--
 
@@ -29,6 +29,11 @@ https://github.com/LLazyEmail/generator-markdown-to-html
 "markup-generator": "^0.4.0",
 ```
 
+## Main project
+https://github.com/LLazyEmail/markdown-to-email
+
+## Markdown-regex module
+https://github.com/LLazyEmail/markdown-regex
 
 ### Plain JS Template
 https://github.com/LLazyEmail/_trying-lit
