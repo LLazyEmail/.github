@@ -30,21 +30,24 @@ https://github.com/LLazyEmail/generator-markdown-to-html
 ```
 
 
-
+### Plain JS Template
 https://github.com/LLazyEmail/_trying-lit
 
-
+### One React Template
 https://github.com/LLazyEmail/react-email-template
+
 
 https://github.com/LLazyEmail/default-email-template
 
-https://github.com/LLazyEmail/replacer
+### Modules for Markdown-to-Email project
+- https://github.com/LLazyEmail/replacer
 
-https://github.com/LLazyEmail/generator-module
+- https://github.com/LLazyEmail/generator-module
 
-https://github.com/LLazyEmail/react-plain-template-example
+- https://github.com/LLazyEmail/pixel-email-cli
 
-https://github.com/LLazyEmail/pixel-email-cli
+- https://github.com/LLazyEmail/react-plain-template-example
+
 
 
 
