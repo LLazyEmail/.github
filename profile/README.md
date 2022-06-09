@@ -86,7 +86,8 @@ Cool projects to see
 * [https://hackernoon.com/together4victory-list-of-email-marketing-tools](https://hackernoon.com/together4victory-list-of-email-marketing-tools)
 * [https://hackernoon.com/cool-newsletters-for-developers-part-1](https://hackernoon.com/cool-newsletters-for-developers-part-1)
 * [https://hackernoon.com/cool-resources-for-sending-emails](https://hackernoon.com/cool-resources-for-sending-emails)
-
+* [https://hackernoon.com/businesses-have-messy-emails](https://hackernoon.com/businesses-have-messy-emails)
+* [https://hackernoon.com/businesses-have-messy-emails-the-relationship-between-security-and-sales](https://hackernoon.com/businesses-have-messy-emails-the-relationship-between-security-and-sales)
 
 https://github.com/LLazyEmail/awesome-email-marketing
 ---
