@@ -105,3 +105,6 @@ https://code.tutsplus.com/tutorials/build-a-reusable-design-system-with-react--c
 https://bestofreactjs.com/repo/chromakode-react-html-email-react-renderers
 
 https://github.com/unlayer/react-email-editor
+
+
+- https://blog.appsignal.com/2021/11/03/designing-error-messages-and-a-logging-strategy-in-nodejs.html
