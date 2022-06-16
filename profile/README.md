@@ -108,3 +108,7 @@ https://github.com/unlayer/react-email-editor
 
 
 - https://blog.appsignal.com/2021/11/03/designing-error-messages-and-a-logging-strategy-in-nodejs.html
+- https://www.npmjs.com/package/npmlog
+- https://www.tabnine.com/code/javascript/functions/npmlog/Logger/levels
+- https://blog.logrocket.com/comparing-node-js-logging-tools/
+- https://stackoverflow.com/questions/72506435/how-to-handle-log-events-with-the-npmlog-library
