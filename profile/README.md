@@ -43,10 +43,11 @@ https://github.com/LLazyEmail/markdown-regex
 ### Plain JS Template
 https://github.com/LLazyEmail/_trying-lit
 
-
+### `React DOM` Template 
 - https://github.com/LLazyEmail/react-plain-template-example
 
-
+### Factory object for Display Classes
+-  https://github.com/LLazyEmail/template-object
 
 
 ### Example repository for cloning
