@@ -11,13 +11,17 @@
 🌈 Contribution guidelines - how can the community get involved?
 👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
 🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 -->
 
 
+Email Generator Template Universe
 
 
-https://github.com/LLazyEmail/generator-markdown-to-html
+## Main project
+https://github.com/LLazyEmail/markdown-to-email
+
+Modules for Markdown-to-Email project
 
 ```
 "atherdon-callbacks": "^1.10.0",
@@ -29,8 +33,9 @@ https://github.com/LLazyEmail/generator-markdown-to-html
 "markup-generator": "^0.4.0",
 ```
 
-## Main project
-https://github.com/LLazyEmail/markdown-to-email
+
+### Generator Module
+https://github.com/LLazyEmail/generator-markdown-to-html
 
 ## Markdown-regex module
 https://github.com/LLazyEmail/markdown-regex
@@ -38,28 +43,47 @@ https://github.com/LLazyEmail/markdown-regex
 ### Plain JS Template
 https://github.com/LLazyEmail/_trying-lit
 
-### One React Template
-https://github.com/LLazyEmail/react-email-template
-
-
-https://github.com/LLazyEmail/default-email-template
-
-### Modules for Markdown-to-Email project
-- https://github.com/LLazyEmail/replacer
-
-- https://github.com/LLazyEmail/generator-module
-
-- https://github.com/LLazyEmail/pixel-email-cli
 
 - https://github.com/LLazyEmail/react-plain-template-example
 
 
 
 
+### Example repository for cloning
+https://github.com/LLazyEmail/default-email-template
+
+- https://github.com/LLazyEmail/generator-module
+
+- https://github.com/LLazyEmail/replacer
+
+- https://github.com/LLazyEmail/pixel-email-cli
+
+
+
+### React One Template
+https://github.com/LLazyEmail/react-email-template
+
+
 
 
 
 ![mindmap](https://github.com/atherdon/markdown-to-email/blob/main/MindMap1.png?raw=true)
+
+---
+
+### React Design System
+
+- https://github.com/LLazyEmail/react-email-typography-components
+- https://github.com/LLazyEmail/nextjs-preview
+- https://github.com/LLazyEmail/react-email-miscellaneous-components
+- https://github.com/LLazyEmail/react-sendgrid-form
+- https://github.com/LLazyEmail/react-email-template
+- https://github.com/LLazyEmail/react-email-table
+- https://github.com/LLazyEmail/email-template-react
+- https://github.com/LLazyEmail/react-email-letter-components
+
+---
+
 
 
 
