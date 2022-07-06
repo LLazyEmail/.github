@@ -40,7 +40,7 @@ https://github.com/LLazyEmail/generator-markdown-to-html
 ## Markdown-regex module
 https://github.com/LLazyEmail/markdown-regex
 
-### Plain JS Template
+### Plain JS Template aka `atherdon-old-newsletter-js-outertemplate`
 https://github.com/LLazyEmail/_trying-lit
 
 ### `React DOM` Template 
