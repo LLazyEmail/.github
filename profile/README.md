@@ -102,6 +102,7 @@ Modules for Markdown-to-Email project
 * [Businesses Have Messy Emails: The Relationship between Security and Sales](https://hackernoon.com/businesses-have-messy-emails-the-relationship-between-security-and-sales)
 
 [Awesome-email-marketing](https://github.com/LLazyEmail/awesome-email-marketing)
+
 ---
 
 - [Build your email templates with React](https://medium.com/ovrsea/build-your-email-templates-with-react-ea530ba6b010)
