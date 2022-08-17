@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-### Documentation: [LLazyEmail Documentation](https://llazyemail.github.io/documentation/)
+### Documentation: [LLazyEmail Documentation](https://llazyemail.github.io/documentation/), [github](https://github.com/LLazyEmail/documentation)
 
 <!--
 
