@@ -39,6 +39,14 @@ Modules for Markdown-to-Email project
 
 [Markdown-regex](https://github.com/LLazyEmail/markdown-regex)
 
+
+## Repositories with Plain JS code
+[hn template](https://github.com/LLazyEmail/hn_email_template)
+
+[mjml version](https://github.com/LLazyEmail/mjml-email-template)
+
+[nmtg version](https://github.com/LLazyEmail/nomoretogo_email_template)
+
 ### Plain JS Template aka `atherdon-old-newsletter-js-outertemplate`
 
 [Trying-lit](https://github.com/LLazyEmail/_trying-lit)
@@ -53,7 +61,7 @@ Modules for Markdown-to-Email project
 
 ### Example repository for cloning
 
-[Default-email-template](https://github.com/LLazyEmail/default-email-template)
+- [Default-email-template](https://github.com/LLazyEmail/default-email-template)
 
 - [Generator-module](https://github.com/LLazyEmail/generator-module)
 
