@@ -13,6 +13,14 @@
 
 -->
 
+https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/content-source/index.js
+
+https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/replace-markdown/html/replace-md.js
+
+https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/replace-markdown/react/replace-md.js
+
+https://github.com/LLazyEmail/markdown-to-email/tree/main/src/domain/write
+
 Email Generator Template Universe
 
 ## Main project
