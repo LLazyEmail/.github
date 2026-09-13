@@ -121,6 +121,31 @@ Modules for Markdown-to-Email project
 
 ---
 
+| Category / Section | Repository | Description | Primary Tech / Language |
+| :--- | :--- | :--- | :--- |
+| **Main Engine** | [markdown-to-email](https://github.com/LLazyEmail/markdown-to-email) | Core engine for parsing and transforming Markdown to responsive HTML/React email templates. | JavaScript |
+| **Main Engine** | [markup-generator](https://github.com/LLazyEmail/markup-generator) | File output and markup-writing generator utility. | JavaScript |
+| **Core Utilities** | [markdown-regex](https://github.com/LLazyEmail/markdown-regex) | Regex constants for parsing Markdown syntax. | JavaScript |
+| **Core Utilities** | [template-object](https://github.com/LLazyEmail/template-object) | Helper and factory objects for managing email template displays. | JavaScript |
+| **Core Utilities** | [amazon-ses-service](https://github.com/LLazyEmail/amazon-ses-service) | AWS SES sending integration service. | JavaScript |
+| **React Design System** | [react-email-template](https://github.com/LLazyEmail/react-email-template) | Core React components for structural email layouts. | JavaScript |
+| **React Design System** | [react-email-table](https://github.com/LLazyEmail/react-email-table) | Cross-client HTML table wrappers for React emails. | JavaScript |
+| **React Design System** | [react-email-typography-components](https://github.com/LLazyEmail/react-email-typography-components) | React components for structured email typography. | JavaScript |
+| **React Design System** | [react-email-miscellaneous-components](https://github.com/LLazyEmail/react-email-miscellaneous-components) | Miscellaneous React helpers for email layouts. | JavaScript |
+| **React Design System** | [react-email-letter-components](https://github.com/LLazyEmail/react-email-letter-components) | Letter-style React components for email creation. | JavaScript |
+| **React Design System** | [react-sendgrid-form](https://github.com/LLazyEmail/react-sendgrid-form) | React form component integration for SendGrid. | JavaScript |
+| **Starters & Boilerplates** | [default-email-template](https://github.com/LLazyEmail/default-email-template) | General email boilerplate starter. | JavaScript |
+| **Starters & Boilerplates** | [template-typography](https://github.com/LLazyEmail/template-typography) | Starter repository for custom email typography packages. | JavaScript |
+| **Starters & Boilerplates** | [free-email-templates-to-try](https://github.com/LLazyEmail/free-email-templates-to-try) | Collection of free, ready-to-use HTML email templates. | HTML |
+| **Starters & Boilerplates** | [react-plain-template-example](https://github.com/LLazyEmail/react-plain-template-example) | Boilerplate example using plain JavaScript & React DOM layouts. | JavaScript |
+| **Starters & Boilerplates** | [remix-ecommerce-react-email-template](https://github.com/LLazyEmail/remix-ecommerce-react-email-template) | E-commerce email template starter built with React. | JavaScript |
+| **Curated Lists & Docs** | [awesome-email-marketing](https://github.com/LLazyEmail/awesome-email-marketing) | Curated list of email marketing tools, articles, and frameworks. | Markdown / Docs |
+| **Experimental** | [_trying_simple_tags](https://github.com/LLazyEmail/_trying_simple_tags) | Experimental sandbox repo for HTML/tag parsing. | JavaScript |
+
+---
+
+## Must Read
+
 - [Build your email templates with React](https://medium.com/ovrsea/build-your-email-templates-with-react-ea530ba6b010)
 - [Creating email templates with React components](https://assertible.com/blog/creating-email-templates-with-react-components)
 - [HTML Email Basics](https://templates.mailchimp.com/getting-started/html-email-basics/)
