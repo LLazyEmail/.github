@@ -77,6 +77,9 @@ Modules for Markdown-to-Email project
 
 - [Pixel-email-cli](https://github.com/LLazyEmail/pixel-email-cli)
 
+
+https://www.mintlify.com/docs
+
 ### React One Template
 
 [React-email-template](https://github.com/LLazyEmail/react-email-template)
