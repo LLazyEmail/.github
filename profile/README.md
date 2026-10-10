@@ -1,33 +1,37 @@
-## Hi there 👋
+# LLazyEmail 👋
 
-### Documentation: [LLazyEmail Documentation](https://llazyemail.github.io/documentation/), [github](https://github.com/LLazyEmail/documentation)
+Tools, templates and React components for building emails: write in Markdown, get responsive HTML or React email templates out.
 
-<!--
+📖 **Documentation:** [llazyemail.github.io/documentation](https://llazyemail.github.io/documentation/) · [Source on GitHub](https://github.com/LLazyEmail/documentation)
 
-**Here are some ideas to get you started:**
+## Quick navigation
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
+| I want to... | Go to |
+| :--- | :--- |
+| Convert Markdown to email | [Main project](#-main-project) |
+| Browse every repository | [Repository index](#-repository-index) |
+| Use React email components | [React design system](#-react-design-system) |
+| Start a new template | [Starters & templates](#-starters--templates) |
+| Learn how it all works | [Learning resources](#-learning-resources) |
+| See similar projects | [Related projects](#-related-projects) |
 
--->
+---
 
-https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/content-source/index.js
+## 🚀 Main project
 
-https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/replace-markdown/html/replace-md.js
+**[markdown-to-email](https://github.com/LLazyEmail/markdown-to-email)** is the core engine. It parses Markdown and renders responsive HTML or React email templates.
 
-https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/replace-markdown/react/replace-md.js
+![Mind map of the markdown-to-email project](https://github.com/atherdon/markdown-to-email/blob/main/MindMap1.png?raw=true)
 
-https://github.com/LLazyEmail/markdown-to-email/tree/main/src/domain/write
+**Where to look in the code**
 
-Email Generator Template Universe
+- [Content source](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/content-source/index.js)
+- [Replace Markdown (HTML)](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/replace-markdown/html/replace-md.js)
+- [Replace Markdown (React)](https://github.com/LLazyEmail/markdown-to-email/blob/main/src/domain/replace-markdown/react/replace-md.js)
+- [Write module](https://github.com/LLazyEmail/markdown-to-email/tree/main/src/domain/write)
 
-## Main project
-
-[Markdown-to-email](https://github.com/LLazyEmail/markdown-to-email)
-
-Modules for Markdown-to-Email project
+<details>
+<summary><b>npm modules used by markdown-to-email</b></summary>
 
 ```
 "atherdon-callbacks": "^1.10.0",
@@ -39,115 +43,70 @@ Modules for Markdown-to-Email project
 "markup-generator": "^0.4.0",
 ```
 
-### Generator Module
-
-[Generator-markdown-to-html](https://github.com/LLazyEmail/generator-markdown-to-html)
-
-## Markdown-regex module
-
-[Markdown-regex](https://github.com/LLazyEmail/markdown-regex)
-
-
-## Repositories with Plain JS code
-[hn template](https://github.com/LLazyEmail/hn_email_template)
-
-[mjml version](https://github.com/LLazyEmail/mjml-email-template)
-
-[nmtg version](https://github.com/LLazyEmail/nomoretogo_email_template)
-
-### Plain JS Template aka `atherdon-old-newsletter-js-outertemplate`
-
-[Trying-lit](https://github.com/LLazyEmail/_trying-lit)
-
-### `React DOM` Template 
-
-[React-plain-template-example](https://github.com/LLazyEmail/react-plain-template-example)
-
-### Factory object for Display Classes
-
-[Template-object](https://github.com/LLazyEmail/template-object)
-
-### Example repository for cloning
-
-- [Default-email-template](https://github.com/LLazyEmail/default-email-template)
-
-- [Generator-module](https://github.com/LLazyEmail/generator-module)
-
-- [Replacer](https://github.com/LLazyEmail/replacer)
-
-- [Pixel-email-cli](https://github.com/LLazyEmail/pixel-email-cli)
-
-
-https://www.mintlify.com/docs
-
-### React One Template
-
-[React-email-template](https://github.com/LLazyEmail/react-email-template)
-
-![mindmap](https://github.com/atherdon/markdown-to-email/blob/main/MindMap1.png?raw=true)
-
-### React Design System
-
-- [React-email-typography-components](https://github.com/LLazyEmail/react-email-typography-components)
-- [Nextjs-preview](https://github.com/LLazyEmail/nextjs-preview)
-- [React-email-miscellaneous-components](https://github.com/LLazyEmail/react-email-miscellaneous-components)
-- [React-sendgrid-form](https://github.com/LLazyEmail/react-sendgrid-form)
-- [React-email-template](https://github.com/LLazyEmail/react-email-template)
-- [React-email-table](https://github.com/LLazyEmail/react-email-table)
-- [Email-template-react](https://github.com/LLazyEmail/email-template-react)
-- [React-email-letter-components](https://github.com/LLazyEmail/react-email-letter-components)
-
-### Cool projects to see
-
-- [Bojler](https://github.com/Slicejack/bojler)
-- [Maizzle](https://github.com/maizzle/maizzle)
-- [Pechkin](https://github.com/sglazov/pechkin)
-- [11ty-email-generator](https://github.com/5t3ph/11ty-email-generator/blob/main/src/_data/meta.js)
-
-### Arthur Tkachenko articles
-
-* [5 Reasons Why Newsletters Should Be Part Of Your Business Strategy](https://hackernoon.com/5-reasons-why-newsletters-should-be-part-of-your-business-strategy)
-* [Organizing an Advanced Structure for HTML Email Template](https://hackernoon.com/organizing-an-advanced-structure-for-html-email-template)
-* [How I Started to Build React Components for Email Templates](https://hackernoon.com/how-i-started-to-build-react-components-for-email-templates)
-* [Introducing a Simple NPM Module with Email Templates](https://hackernoon.com/introducing-a-simple-npm-module-with-email-templates)
-* [Glossary for Non Technies](https://hackernoon.com/glossary-for-non-technies)
-* [Email Marketing and How to Curate an Effective Business Newsletter](https://hackernoon.com/email-marketing-and-how-to-curate-an-effective-business-newsletter)
-* [Exploring Substack for Building Your Newsletter](https://hackernoon.com/exploring-substack-for-building-your-newsletter)
-* [Building a Design System for Email Templates (React)](https://hackernoon.com/building-a-design-system-for-email-templates-react)
-* [#Together4Victory: List of Email Marketing Tools](https://hackernoon.com/together4victory-list-of-email-marketing-tools)
-* [Cool Newsletters for developers [Part 1]](https://hackernoon.com/cool-newsletters-for-developers-part-1)
-* [Cool resources for sending emails](https://hackernoon.com/cool-resources-for-sending-emails)
-* [Businesses Have Messy Emails](https://hackernoon.com/businesses-have-messy-emails)
-* [Businesses Have Messy Emails: The Relationship between Security and Sales](https://hackernoon.com/businesses-have-messy-emails-the-relationship-between-security-and-sales)
-
-[Awesome-email-marketing](https://github.com/LLazyEmail/awesome-email-marketing)
+</details>
 
 ---
 
-| Category / Section | Repository | Description | Primary Tech / Language |
-| :--- | :--- | :--- | :--- |
-| **Main Engine** | [markdown-to-email](https://github.com/LLazyEmail/markdown-to-email) | Core engine for parsing and transforming Markdown to responsive HTML/React email templates. | JavaScript |
-| **Main Engine** | [markup-generator](https://github.com/LLazyEmail/markup-generator) | File output and markup-writing generator utility. | JavaScript |
-| **Core Utilities** | [markdown-regex](https://github.com/LLazyEmail/markdown-regex) | Regex constants for parsing Markdown syntax. | JavaScript |
-| **Core Utilities** | [template-object](https://github.com/LLazyEmail/template-object) | Helper and factory objects for managing email template displays. | JavaScript |
-| **Core Utilities** | [amazon-ses-service](https://github.com/LLazyEmail/amazon-ses-service) | AWS SES sending integration service. | JavaScript |
-| **React Design System** | [react-email-template](https://github.com/LLazyEmail/react-email-template) | Core React components for structural email layouts. | JavaScript |
-| **React Design System** | [react-email-table](https://github.com/LLazyEmail/react-email-table) | Cross-client HTML table wrappers for React emails. | JavaScript |
-| **React Design System** | [react-email-typography-components](https://github.com/LLazyEmail/react-email-typography-components) | React components for structured email typography. | JavaScript |
-| **React Design System** | [react-email-miscellaneous-components](https://github.com/LLazyEmail/react-email-miscellaneous-components) | Miscellaneous React helpers for email layouts. | JavaScript |
-| **React Design System** | [react-email-letter-components](https://github.com/LLazyEmail/react-email-letter-components) | Letter-style React components for email creation. | JavaScript |
-| **React Design System** | [react-sendgrid-form](https://github.com/LLazyEmail/react-sendgrid-form) | React form component integration for SendGrid. | JavaScript |
-| **Starters & Boilerplates** | [default-email-template](https://github.com/LLazyEmail/default-email-template) | General email boilerplate starter. | JavaScript |
-| **Starters & Boilerplates** | [template-typography](https://github.com/LLazyEmail/template-typography) | Starter repository for custom email typography packages. | JavaScript |
-| **Starters & Boilerplates** | [free-email-templates-to-try](https://github.com/LLazyEmail/free-email-templates-to-try) | Collection of free, ready-to-use HTML email templates. | HTML |
-| **Starters & Boilerplates** | [react-plain-template-example](https://github.com/LLazyEmail/react-plain-template-example) | Boilerplate example using plain JavaScript & React DOM layouts. | JavaScript |
-| **Starters & Boilerplates** | [remix-ecommerce-react-email-template](https://github.com/LLazyEmail/remix-ecommerce-react-email-template) | E-commerce email template starter built with React. | JavaScript |
-| **Curated Lists & Docs** | [awesome-email-marketing](https://github.com/LLazyEmail/awesome-email-marketing) | Curated list of email marketing tools, articles, and frameworks. | Markdown / Docs |
-| **Experimental** | [_trying_simple_tags](https://github.com/LLazyEmail/_trying_simple_tags) | Experimental sandbox repo for HTML/tag parsing. | JavaScript |
+## 🗂 Repository index
+
+### Core engine and utilities
+
+| Repository | Description |
+| :--- | :--- |
+| [markdown-to-email](https://github.com/LLazyEmail/markdown-to-email) | Core engine for transforming Markdown into responsive HTML/React email templates |
+| [markup-generator](https://github.com/LLazyEmail/markup-generator) | File output and markup-writing generator utility |
+| [generator-markdown-to-html](https://github.com/LLazyEmail/generator-markdown-to-html) | Generator module for Markdown to HTML |
+| [markdown-regex](https://github.com/LLazyEmail/markdown-regex) | Regex constants for parsing Markdown syntax |
+| [template-object](https://github.com/LLazyEmail/template-object) | Factory object for display classes, helps manage email template displays |
+| [amazon-ses-service](https://github.com/LLazyEmail/amazon-ses-service) | AWS SES sending integration |
+
+### ⚛️ React design system
+
+| Repository | Description |
+| :--- | :--- |
+| [react-email-template](https://github.com/LLazyEmail/react-email-template) | Core React components for structural email layouts (the "React One" template) |
+| [react-email-table](https://github.com/LLazyEmail/react-email-table) | Cross-client HTML table wrappers for React emails |
+| [react-email-typography-components](https://github.com/LLazyEmail/react-email-typography-components) | Components for structured email typography |
+| [react-email-miscellaneous-components](https://github.com/LLazyEmail/react-email-miscellaneous-components) | Miscellaneous React helpers for email layouts |
+| [react-email-letter-components](https://github.com/LLazyEmail/react-email-letter-components) | Letter-style components for email creation |
+| [react-sendgrid-form](https://github.com/LLazyEmail/react-sendgrid-form) | Form component integration for SendGrid |
+| [email-template-react](https://github.com/LLazyEmail/email-template-react) | React email template |
+| [nextjs-preview](https://github.com/LLazyEmail/nextjs-preview) | Next.js preview app for templates |
+
+### 🧱 Starters & templates
+
+| Repository | Description |
+| :--- | :--- |
+| [default-email-template](https://github.com/LLazyEmail/default-email-template) | General email boilerplate, good for cloning |
+| [generator-module](https://github.com/LLazyEmail/generator-module) | Example generator module for cloning |
+| [replacer](https://github.com/LLazyEmail/replacer) | Example replacer module for cloning |
+| [pixel-email-cli](https://github.com/LLazyEmail/pixel-email-cli) | Example CLI for cloning |
+| [template-typography](https://github.com/LLazyEmail/template-typography) | Starter for custom email typography packages |
+| [free-email-templates-to-try](https://github.com/LLazyEmail/free-email-templates-to-try) | Free, ready-to-use HTML email templates |
+| [react-plain-template-example](https://github.com/LLazyEmail/react-plain-template-example) | Plain JavaScript and React DOM template example |
+| [remix-ecommerce-react-email-template](https://github.com/LLazyEmail/remix-ecommerce-react-email-template) | E-commerce email starter built with React |
+
+### 🟨 Plain JS templates
+
+| Repository | Description |
+| :--- | :--- |
+| [hn_email_template](https://github.com/LLazyEmail/hn_email_template) | HN template |
+| [mjml-email-template](https://github.com/LLazyEmail/mjml-email-template) | MJML version |
+| [nomoretogo_email_template](https://github.com/LLazyEmail/nomoretogo_email_template) | NMTG version |
+| [_trying-lit](https://github.com/LLazyEmail/_trying-lit) | Plain JS template (`atherdon-old-newsletter-js-outertemplate`) |
+
+### 🧪 Experimental and curated
+
+| Repository | Description |
+| :--- | :--- |
+| [_trying_simple_tags](https://github.com/LLazyEmail/_trying_simple_tags) | Sandbox for HTML/tag parsing |
+| [awesome-email-marketing](https://github.com/LLazyEmail/awesome-email-marketing) | Curated list of email marketing tools, articles and frameworks |
 
 ---
 
-## Must Read
+## 📚 Learning resources
+
+### Must read
 
 - [Build your email templates with React](https://medium.com/ovrsea/build-your-email-templates-with-react-ea530ba6b010)
 - [Creating email templates with React components](https://assertible.com/blog/creating-email-templates-with-react-components)
@@ -157,14 +116,56 @@ https://www.mintlify.com/docs
 - [Create elegant HTML email templates using React](https://bestofreactjs.com/repo/chromakode-react-html-email-react-renderers)
 - [React-email-editor](https://github.com/unlayer/react-email-editor)
 
+### Articles by Arthur Tkachenko
+
+<details>
+<summary><b>Building templates and components</b></summary>
+
+- [Organizing an Advanced Structure for HTML Email Template](https://hackernoon.com/organizing-an-advanced-structure-for-html-email-template)
+- [How I Started to Build React Components for Email Templates](https://hackernoon.com/how-i-started-to-build-react-components-for-email-templates)
+- [Introducing a Simple NPM Module with Email Templates](https://hackernoon.com/introducing-a-simple-npm-module-with-email-templates)
+- [Building a Design System for Email Templates (React)](https://hackernoon.com/building-a-design-system-for-email-templates-react)
+
+</details>
+
+<details>
+<summary><b>Email marketing and strategy</b></summary>
+
+- [5 Reasons Why Newsletters Should Be Part Of Your Business Strategy](https://hackernoon.com/5-reasons-why-newsletters-should-be-part-of-your-business-strategy)
+- [Email Marketing and How to Curate an Effective Business Newsletter](https://hackernoon.com/email-marketing-and-how-to-curate-an-effective-business-newsletter)
+- [Exploring Substack for Building Your Newsletter](https://hackernoon.com/exploring-substack-for-building-your-newsletter)
+- [Businesses Have Messy Emails](https://hackernoon.com/businesses-have-messy-emails)
+- [Businesses Have Messy Emails: The Relationship between Security and Sales](https://hackernoon.com/businesses-have-messy-emails-the-relationship-between-security-and-sales)
+
+</details>
+
+<details>
+<summary><b>Tools, lists and glossary</b></summary>
+
+- [Glossary for Non Technies](https://hackernoon.com/glossary-for-non-technies)
+- [#Together4Victory: List of Email Marketing Tools](https://hackernoon.com/together4victory-list-of-email-marketing-tools)
+- [Cool Newsletters for developers [Part 1]](https://hackernoon.com/cool-newsletters-for-developers-part-1)
+- [Cool resources for sending emails](https://hackernoon.com/cool-resources-for-sending-emails)
+
+</details>
+
+### Logging and tooling
+
+- [Designing Error Messages and a Logging Strategy in Node.js](https://blog.appsignal.com/2021/11/03/designing-error-messages-and-a-logging-strategy-in-nodejs.html)
+- [Comparing Node.js logging tools](https://blog.logrocket.com/comparing-node-js-logging-tools/)
+- [npmlog](https://www.npmjs.com/package/npmlog)
+- [How to use levels function in Logger](https://www.tabnine.com/code/javascript/functions/npmlog/Logger/levels)
+- [How to handle log events with the npmlog library?](https://stackoverflow.com/questions/72506435/how-to-handle-log-events-with-the-npmlog-library)
+- [markdownlint](https://www.npmjs.com/package/markdownlint)
+- [Mintlify docs](https://www.mintlify.com/docs)
 
 ---
 
-- [Designing Error Messages and a Logging Strategy in Node.js](https://blog.appsignal.com/2021/11/03/designing-error-messages-and-a-logging-strategy-in-nodejs.html)
-- [Npmlog](https://www.npmjs.com/package/npmlog)
-- [How to use levels function in Logger](https://www.tabnine.com/code/javascript/functions/npmlog/Logger/levels)
-- [Comparing Node.js logging tools](https://blog.logrocket.com/comparing-node-js-logging-tools/)
-- [How to handle log events with the npmlog library?](https://stackoverflow.com/questions/72506435/how-to-handle-log-events-with-the-npmlog-library)
+## 🔭 Related projects
 
+Worth a look for ideas and comparison:
 
-https://www.npmjs.com/package/markdownlint
+- [Bojler](https://github.com/Slicejack/bojler)
+- [Maizzle](https://github.com/maizzle/maizzle)
+- [Pechkin](https://github.com/sglazov/pechkin)
+- [11ty-email-generator](https://github.com/5t3ph/11ty-email-generator/blob/main/src/_data/meta.js)
