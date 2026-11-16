@@ -10,10 +10,11 @@ See also: [architecture](./architecture.md) · [contributing](./contributing.md)
 
 ## Core pipeline
 
-| Repository | Description | Language | ★ |
-| --- | --- | --- | ---: |
+| Repository | Description | Language | ★ | Notes |
+| --- | --- | --- | ---: | --- |
 | [markup-generator](https://github.com/LLazyEmail/markup-generator) | module for writing content into files | TypeScript | 0 | |
 | [generate-template](https://github.com/LLazyEmail/generate-template) | Configurable engine for rendering named email templates to HTML (@llazyemail/generate-template) | TypeScript | 0 | |
+| [generate-template-server](https://github.com/LLazyEmail/generate-template-server) | Thin callable HTTP server that wraps @llazyemail/generate-template.run. Designed for the online editor, preview, and zip-download flows. | JavaScript | 0 | |
 | [render-template](https://github.com/LLazyEmail/render-template) | Deterministic HTML part/compose renderer with traces (@llazyemail/render-template) | TypeScript | 0 | |
 | [template-runtime-display](https://github.com/LLazyEmail/template-runtime-display) | Email shell + runtime + inspector on top of render-template | TypeScript | 0 | |
 | [email-template-workflows](https://github.com/LLazyEmail/email-template-workflows) | Reusable GitHub Action that installs your project's dependencies, renders email HTML with whatever you already use (an npm script, MJML, Maizzle, pandoc, a catalog CLI), uploads a browsable artifact, writes a job summary, and on a pull request posts or updates one comment. | Shell | 0 | |
@@ -21,8 +22,8 @@ See also: [architecture](./architecture.md) · [contributing](./contributing.md)
 
 ## Markdown tooling
 
-| Repository | Description | Language | ★ |
-| --- | --- | --- | ---: |
+| Repository | Description | Language | ★ | Notes |
+| --- | --- | --- | ---: | --- |
 | [markdown-to-email](https://github.com/LLazyEmail/markdown-to-email) | Core Markdown → responsive HTML/React email engine | JavaScript | 8 | |
 | [markdown-regex](https://github.com/LLazyEmail/markdown-regex) | Set of constants that can help you to parse markdown content | TypeScript | 10 | |
 | [generator-markdown-to-html](https://github.com/LLazyEmail/generator-markdown-to-html) | Markdown → HTML via unified/remark/rehype (GFM by default) | TypeScript | 1 | |
@@ -30,8 +31,8 @@ See also: [architecture](./architecture.md) · [contributing](./contributing.md)
 
 ## Production templates
 
-| Repository | Description | Language | ★ |
-| --- | --- | --- | ---: |
+| Repository | Description | Language | ★ | Notes |
+| --- | --- | --- | ---: | --- |
 | [hn_email_template](https://github.com/LLazyEmail/hn_email_template) | Plain-JS Hackernoon-style newsletter generator using template-runtime-display | JavaScript | 1 | |
 | [nomoretogo_email_template](https://github.com/LLazyEmail/nomoretogo_email_template) | NoMoreToGo / MailerLite-style email template monorepo (active work under template/) | HTML | 1 | |
 | [postmark-transactional-template-simple](https://github.com/LLazyEmail/postmark-transactional-template-simple) | Standalone transactional email template generator (Postmark-oriented) | TypeScript | 0 | |
@@ -39,8 +40,8 @@ See also: [architecture](./architecture.md) · [contributing](./contributing.md)
 
 ## Documentation & curated lists
 
-| Repository | Description | Language | ★ |
-| --- | --- | --- | ---: |
+| Repository | Description | Language | ★ | Notes |
+| --- | --- | --- | ---: | --- |
 | [documentation](https://github.com/LLazyEmail/documentation) | Primary LLazyEmail Docusaurus documentation site (docs.llazyemail.com) | HTML | 0 | |
 | [documentation-actions](https://github.com/LLazyEmail/documentation-actions) | Reusable GitHub Actions and workflows for Docusaurus and awesome-list repos | Shell | 0 | |
 | [awesome-email-marketing](https://github.com/LLazyEmail/awesome-email-marketing) | ✉️ An awesome list of resources for email marketing. | TypeScript | 78 | |
@@ -51,8 +52,8 @@ See also: [architecture](./architecture.md) · [contributing](./contributing.md)
 
 ## React design system
 
-| Repository | Description | Language | ★ |
-| --- | --- | --- | ---: |
+| Repository | Description | Language | ★ | Notes |
+| --- | --- | --- | ---: | --- |
 | [react-email-template](https://github.com/LLazyEmail/react-email-template) | Core React structural email layout components ("React One") | JavaScript | 0 | |
 | [react-email-table](https://github.com/LLazyEmail/react-email-table) | Cross-client HTML table wrappers for React emails | JavaScript | 0 | |
 | [react-email-typography-components](https://github.com/LLazyEmail/react-email-typography-components) | Typography components for React emails | JavaScript | 0 | |
@@ -65,8 +66,8 @@ See also: [architecture](./architecture.md) · [contributing](./contributing.md)
 
 ## Remix / brand starters
 
-| Repository | Description | Language | ★ |
-| --- | --- | --- | ---: |
+| Repository | Description | Language | ★ | Notes |
+| --- | --- | --- | ---: | --- |
 | [remix-ecommerce-react-email-template](https://github.com/LLazyEmail/remix-ecommerce-react-email-template) | Remix starter: ecommerce email (React design system) | JavaScript | 0 | |
 | [remix-hn-react-email-template](https://github.com/LLazyEmail/remix-hn-react-email-template) | Remix starter: Hackernoon-style React email | JavaScript | 0 | |
 | [remix-amazon-billing-email-template](https://github.com/LLazyEmail/remix-amazon-billing-email-template) | Remix starter: Amazon-style billing email (React design system) | JavaScript | 0 | |
@@ -80,8 +81,8 @@ See also: [architecture](./architecture.md) · [contributing](./contributing.md)
 
 ## Starters, editors & utilities
 
-| Repository | Description | Language | ★ |
-| --- | --- | --- | ---: |
+| Repository | Description | Language | ★ | Notes |
+| --- | --- | --- | ---: | --- |
 | [default-email-template](https://github.com/LLazyEmail/default-email-template) | General email boilerplate intended for cloning | JavaScript | 4 | |
 | [free-email-templates-to-try](https://github.com/LLazyEmail/free-email-templates-to-try) | Free ready-to-use HTML email templates collection | HTML | 2 | |
 | [pixel-email-cli](https://github.com/LLazyEmail/pixel-email-cli) | Example CLI for email generation (cloneable) | JavaScript | 0 | |
@@ -100,8 +101,8 @@ See also: [architecture](./architecture.md) · [contributing](./contributing.md)
 
 ## Experiments & sandboxes
 
-| Repository | Description | Language | ★ |
-| --- | --- | --- | ---: |
+| Repository | Description | Language | ★ | Notes |
+| --- | --- | --- | ---: | --- |
 | [_trying_simple_tags](https://github.com/LLazyEmail/_trying_simple_tags) | Plain JS typography helpers: tiny pure functions that turn props into HTML strings | TypeScript | 0 | |
 | [_trying-oclif](https://github.com/LLazyEmail/_trying-oclif) | Standalone oclif CLI experiment for the LLazyEmail rendering engine | TypeScript | 0 | |
 | [templates-battlefield](https://github.com/LLazyEmail/templates-battlefield) | Sandbox / battlefield for template experiments | JavaScript | 0 | |
@@ -118,23 +119,23 @@ See also: [architecture](./architecture.md) · [contributing](./contributing.md)
 
 ## Forks
 
-| Repository | Description | Language | ★ |
-| --- | --- | --- | ---: |
+| Repository | Description | Language | ★ | Notes |
+| --- | --- | --- | ---: | --- |
 | [oy](https://github.com/LLazyEmail/oy) | Render HTML emails on the server with React. | JavaScript | 0 | · fork |
 | [lit-element-starter-js](https://github.com/LLazyEmail/lit-element-starter-js) | Sample component project using LitElement, in JavaScript | JavaScript | 0 | · fork |
 
 ## Other active repositories
 
-| Repository | Description | Language | ★ |
-| --- | --- | --- | ---: |
+| Repository | Description | Language | ★ | Notes |
+| --- | --- | --- | ---: | --- |
 | [.github](https://github.com/LLazyEmail/.github) | Organization profile README and shared org meta for github.com/LLazyEmail | — | 0 | |
 
 ## Archived / legacy
 
 GitHub-archived repositories (collapsed for the profile README). Prefer current packages above.
 
-| Repository | Description | Language | ★ |
-| --- | --- | --- | ---: |
+| Repository | Description | Language | ★ | Notes |
+| --- | --- | --- | ---: | --- |
 | [_trying_frontmatter](https://github.com/LLazyEmail/_trying_frontmatter) | Archived front-matter parsing experiments | JavaScript | 0 | · **archived** |
 | [lit-typography](https://github.com/LLazyEmail/lit-typography) | Archived lit-typography package experiments | JavaScript | 0 | · **archived** |
 | [replacer](https://github.com/LLazyEmail/replacer) | Replacer module finally getting a separated place | JavaScript | 0 | · **archived** |

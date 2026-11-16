@@ -25,7 +25,7 @@ Most active repositories ship an [`AGENTS.md`](https://github.com/search?q=org%3
 1. Read `AGENTS.md` before changing behavior.
 2. Treat `src/` (and tests) as ground truth; docs explain intent.
 3. Prefer injected `render` functions into `@llazyemail/generate-template` over local reimplementations of catalog / payload / write.
-4. Prefer thin callers of [`documentation-actions@v1`](https://github.com/LLazyEmail/documentation-actions) and [`email-template-workflows@v1`](https://github.com/LLazyEmail/email-template-workflows) instead of copying job YAML.
+4. Prefer thin callers of [`documentation-actions@v2`](https://github.com/LLazyEmail/documentation-actions) and [`email-template-workflows@v3`](https://github.com/LLazyEmail/email-template-workflows) instead of copying job YAML.
 5. Pin third-party Actions to a **full commit SHA** with a `# vX.Y.Z` comment; Renovate keeps them current.
 6. Open **draft** PRs against `main` unless told otherwise.
 
@@ -47,7 +47,7 @@ Also see `llms.txt` / `llms-full.txt` in several repos (for example email-templa
 
 ### Email rendering — `email-template-workflows`
 
-Pin `LLazyEmail/email-template-workflows@v1` (floating major). Modes:
+Pin `LLazyEmail/email-template-workflows@v3` (floating major; `@v2` keeps the old email defaults). Modes:
 
 - **command** — e.g. `npx generate-template --all --out=generated`
 - **script** — npm script with input/output flags
@@ -57,7 +57,7 @@ Uploads a browsable artifact, writes a job summary, and can upsert a PR comment.
 
 ### Documentation — `documentation-actions`
 
-Pin `LLazyEmail/documentation-actions@v1` after release (draft adoption may use `@main` only during the adoption window). Provides:
+Pin `LLazyEmail/documentation-actions@v2` (draft adoption may use `@main` only during the adoption window). v2 prefers short-name aliases (`reusable-test-deploy`, `reusable-readme-sync`, …); long names still work until v3. Provides:
 
 - Reusable workflows: Docusaurus test-deploy / Pages deploy, docs-ci umbrella, link check (lychee), markdownlint, changelog, docs-index, catalog-api, auto-rebase, star-request, awesome-list checks
 - Composite actions under `actions/<name>/`

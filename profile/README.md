@@ -117,7 +117,7 @@ permissions:
   pull-requests: write
 steps:
   - uses: actions/checkout@v7
-  - uses: LLazyEmail/email-template-workflows@v1
+  - uses: LLazyEmail/email-template-workflows@v3
     with:
       working-directory: .
       command: npx generate-template --all --out=generated
@@ -186,6 +186,7 @@ flowchart TB
 | `@llazyemail/generate-template` | Catalog, payloads, `run` / `writeAll`, CLI | Part compose / email chrome |
 | `@llazyemail/render-template` | Ordered parts + compose + traces | Catalog / file I/O |
 | `@llazyemail/template-runtime-display` | Email shell, inspector, quality helpers | Generation catalog |
+| `generate-template-server` | HTTP surface over `generate-template` `run()`: `/render`, `/render-preview`, `/render-many` (zip), auth, metrics | Generation logic |
 | `email-template-workflows` | CI install → render → artifact → comment | Your template source |
 | `markdown-to-email` | Markdown syntax → HTML / React layouts | Modern catalog CLI (use generate-template for new work) |
 
@@ -198,7 +199,7 @@ Consumers **inject** `render` functions into `createGenerator` rather than reimp
 | Repository | Role | Links |
 | --- | --- | --- |
 | [documentation](https://github.com/LLazyEmail/documentation) | Primary Docusaurus product docs | [docs.llazyemail.com](https://docs.llazyemail.com) · [GitHub Pages](https://llazyemail.github.io/documentation/) |
-| [documentation-actions](https://github.com/LLazyEmail/documentation-actions) | Reusable Actions + workflows for docs / awesome lists | Pin `@v1` · [actions index](https://github.com/LLazyEmail/documentation-actions/blob/main/docs/actions-index.md) |
+| [documentation-actions](https://github.com/LLazyEmail/documentation-actions) | Reusable Actions + workflows for docs / awesome lists | Pin `@v2` (short-name aliases) · [actions index](https://github.com/LLazyEmail/documentation-actions/blob/main/docs/actions-index.md) |
 | [awesome-email-marketing](https://github.com/LLazyEmail/awesome-email-marketing) | Curated email marketing resources + docs site under `website/` | Explore tags on the published site |
 | [awesome-newsletters](https://github.com/LLazyEmail/awesome-newsletters) | Curated newsletter craft / directories / tools | [GitHub Pages](https://llazyemail.github.io/awesome-newsletters/) |
 | [v-school](https://github.com/LLazyEmail/v-school) | Docusaurus docs (inventory, 3D parts, printing, lectures; EN + UK) | Thin `documentation-actions` callers |
@@ -371,11 +372,11 @@ Requires a token with `read:packages` and scope mapping in `.npmrc` (copy each r
 
 ### Email HTML — [`email-template-workflows`](https://github.com/LLazyEmail/email-template-workflows)
 
-Pin **`LLazyEmail/email-template-workflows@v1`**. Supports npm / yarn / pnpm / bun, monorepos, script mode, command mode, and build-command mode (MJML, pandoc, …). Uploads artifacts and can upsert one PR comment per `comment-key`. Agent playbook: [`docs/agent-playbook.md`](https://github.com/LLazyEmail/email-template-workflows/blob/main/docs/agent-playbook.md).
+Pin **`LLazyEmail/email-template-workflows@v3`** (generic defaults; `@v2` keeps the old email defaults `product-name: emails`, `size-limit-kb: 102`, `artifact-name: rendered-email`). Supports npm / yarn / pnpm / bun, monorepos, script mode, command mode, and build-command mode (MJML, pandoc, …). Uploads artifacts and can upsert one PR comment per `comment-key`. Agent playbook: [`docs/agent-playbook.md`](https://github.com/LLazyEmail/email-template-workflows/blob/main/docs/agent-playbook.md).
 
 ### Docs & awesome lists — [`documentation-actions`](https://github.com/LLazyEmail/documentation-actions)
 
-Pin **`LLazyEmail/documentation-actions@v1`** after release. Reusable workflows cover Docusaurus test-deploy / Pages deploy, markdownlint, soft-fail lychee, changelog, docs-index, catalog API, auto-rebase, star-request, and awesome-list checks. Prefer copying from `examples/` over duplicating YAML. Checklist: [`skills/docusaurus-docs-site/SKILL.md`](https://github.com/LLazyEmail/documentation-actions/blob/main/skills/docusaurus-docs-site/SKILL.md).
+Pin **`LLazyEmail/documentation-actions@v2`** (v2.0.0 released 2026-11-16). v2 makes short-name aliases the public surface, for example `reusable-test-deploy`, `reusable-pages-deploy`, `reusable-readme-sync`, `reusable-image-check` and `reusable-pr-report`. The long names still work in v2 and are removed in v3; see [`docs/naming.md`](https://github.com/LLazyEmail/documentation-actions/blob/main/docs/naming.md). Reusable workflows cover Docusaurus test-deploy / Pages deploy, markdownlint, soft-fail lychee, changelog, docs-index, catalog API, auto-rebase, star-request, and awesome-list checks. Prefer copying from `examples/` over duplicating YAML. Checklist: [`skills/docusaurus-docs-site/SKILL.md`](https://github.com/LLazyEmail/documentation-actions/blob/main/skills/docusaurus-docs-site/SKILL.md).
 
 ### Common rules
 
