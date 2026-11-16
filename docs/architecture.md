@@ -61,7 +61,7 @@ flowchart TB
   end
 
   subgraph CI["Shared CI"]
-    ETW["email-template-workflows<br/>GitHub Action @v1"]
+    ETW["email-template-workflows<br/>GitHub Action @v3"]
   end
 
   HN --> TRD
@@ -101,7 +101,7 @@ flowchart TB
 2. Call `createGenerator({ catalog, samplePayloads, outDir })` from `@llazyemail/generate-template`.
 3. Inside each `render`, build HTML via `@llazyemail/template-runtime-display` / `@llazyemail/render-template`, Lit SSR (stringified), React, or plain functions — **strings only** at the render-template boundary.
 4. Persist with `run({ write })` / `writeAll` → `markup-generator`.
-5. Optionally wire [`email-template-workflows@v1`](https://github.com/LLazyEmail/email-template-workflows) so every PR uploads rendered HTML and posts a comment.
+5. Optionally wire [`email-template-workflows@v3`](https://github.com/LLazyEmail/email-template-workflows) so every PR uploads rendered HTML and posts a comment.
 
 ```bash
 npx generate-template --list
@@ -111,7 +111,7 @@ npx generate-template --template=welcome --data=./payload.json
 
 ## Documentation sites
 
-Docusaurus sites share automation through [`documentation-actions`](https://github.com/LLazyEmail/documentation-actions) (`@v1` floating major after release). Prefer thin caller workflows copied from that repo's `examples/` rather than duplicating job YAML.
+Docusaurus sites share automation through [`documentation-actions`](https://github.com/LLazyEmail/documentation-actions) (`@v2` floating major since 2026-11-16; prefer the short-name aliases such as `reusable-test-deploy`). Prefer thin caller workflows copied from that repo's `examples/` rather than duplicating job YAML.
 
 | Site | Repo | Notes |
 | --- | --- | --- |
